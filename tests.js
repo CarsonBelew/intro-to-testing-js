@@ -18,6 +18,12 @@ describe('sayHello', function () {
     it('should be defined as a function', function () {
         expect(typeof sayHello).toBe('function');
     });
+    it('should return as a string when called.', function () {
+        expect(typeof sayHello()).toBe("string");
+    });
+    it('should ', function () {
+        expect().toBe();
+    });
 
 });
 
